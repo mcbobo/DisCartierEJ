@@ -31,9 +31,13 @@ RUN echo "Asia/shanghai" > /etc/timezone && \
 # pull code from git
 #=======================================
 
+<<<<<<< HEAD
 RUN git clone https://github.com/mcbobo/cej.git CartierEJ
+=======
+RUN git clone https://github.com/mcbobo/cej.git
+>>>>>>> b78334168ea2a0aad285810ca8582fec5a7737bd
 
-WORKDIR CartierEJ
+WORKDIR cej
 
 RUN pip install -r requirements.txt
 
