@@ -29,21 +29,13 @@ NEW_COMMAND_TIMEOUT = 60
 APPIUM_CARTIEREJ_IMAGE = "appium_cartierej_docker:latest"
 PORTS = 4723
 APPIUM_CARTIEREJ_CMD = "bash /app_shell/app.sh"
-<<<<<<< HEAD
 APP_APK_VOLUMES = "/home/jgb/Documents/DisCartierEJ/red/apk:/apk_shell"
-=======
-APP_APK_VOLUMES = "/Users/red/apk:/apk_shell"
->>>>>>> b78334168ea2a0aad285810ca8582fec5a7737bd
 
 """
 Use device name as directory to save docker_compose.yml and app.sh
 Need abs path
 """
-<<<<<<< HEAD
 DOCKER_COMPOSE_VOLUMES = "/home/jgb/Documents/DisCartierEJ/resources/dockercomposes/"
-=======
-DOCKER_COMPOSE_VOLUMES = "/Users/red/DisCartierEJ/resources/dockercomposes/"
->>>>>>> b78334168ea2a0aad285810ca8582fec5a7737bd
 
 # logs save place in local
 LOCAL_LOG_DIR = "/home/jgb/Documents/DisCartierEJ/red/tmp/logs/"

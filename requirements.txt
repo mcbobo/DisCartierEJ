@@ -2,3 +2,4 @@
 yattag == 1.8.0
 jinja2 == 2.9.5
 stf-selector == 0.1.0
+tinydb == 3.2.1
